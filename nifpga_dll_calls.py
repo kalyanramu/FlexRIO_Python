@@ -19,6 +19,37 @@ def poll_reg(reg, time_out_sec = 5):
         print('Exception in function --> init_done :', error)
         return None
 
+class nifga_dll():
+    dll_path = r"C:\Windows\System32\niflexrioapi.dll"
+
+    def __init__(self, session):
+        try:
+            
+            self.nifpga_dll = cdll.LoadLibrary(self.dll_path)
+            self.nifpga_session = session._session
+            
+        except Exception as error:
+            print('Error Initializing NI FPGA DLL :', error)
+            raise
+    
+    def wait_for_io_done(self, timeout =5):
+        #int32_t niFlexRIO_WaitForIoReady(uint32_t session in, int32_t timeoutInMs, uint32_t *ioReady, int32_t *ioError);
+        time_out = c_uint32(timeout)
+        io_ready = c_uint32(0)
+        io_error = c_int32(0)
+        io_ready_ptr = POINTER(io_ready)
+        io_error_ptr = POINTER(io_error)
+        try:
+            status = self.nifpga_dll.niFlexRIO_WaitForIoReady(self.nifpga_session,time_out,io_ready_ptr, io_error_ptr)
+            if status < 0:
+                raise Exception
+
+        except Exception as error:
+            print('Error during Wait IO Done function call ', error)
+            raise
+
+    
+
 class nifpga_stream():
     dll_path = r"C:\Program Files (x86)\National Instruments\LabVIEW 2018\resource\nistreaming.dll"
     

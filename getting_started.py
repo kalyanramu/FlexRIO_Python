@@ -12,13 +12,15 @@ num_bits =12
 gain = (range/ (2**num_bits))
 num_samples = 1000
 stream_index = 0
-with Session(bitfile= bitfile_path, resource="RIO0") as session:
+with Session(bitfile= bitfile_path, resource="RIO1") as session:
     session.run()
-    init_done_reg       = session.registers["IO Module\Initialization Done"]
+    #init_done_reg       = session.registers["IO Module\Initialization Done"]
     #channel_sel_reg     = session.registers["ChannelSelect"]
 
     #Wait until module is initialized
-    init_done_status = poll_reg(init_done_reg)
+    #init_done_status = poll_reg(init_done_reg)
+    flexrio_session = nifga_dll(session)
+    init_done_status = flexrio_session.wait_for_io_done()
     print(init_done_status)
 
     #Select Channel
