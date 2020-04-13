@@ -1,0 +1,6 @@
+Signal Name,Alias,Datatype,Description
+28VPWR00,Channel 0 28V Power,Boolean,Designates if 28V power is active on channel 0
+PTCH0000,Channel 0 Pitch,Single,Channel 0 pitch (degrees)
+YAW00000,Channel 0 Yaw,Single,Channel 0 yaw (degrees)
+ROLL0000,Channel 0 Roll,Single,Channel 0 roll (degrees)
+OILTMP00,Channel 0 Oil Temperature,Single,Channel 0 oil temperature (degrees F)

@@ -1,0 +1,2304 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f3</Version>
+<Cluster>
+<Name>output cluster</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>General</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Circuit Type</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>Host Circuit Path</Name>
+<Val>C:\Users\kalyan\Desktop\Three_Phase_Diode_Rectifier_PSIM.ehs3</Val>
+</Path>
+<Path>
+<Name>Host Circuit Path (.opal file)</Name>
+<Val>C:\Users\kalyan\Desktop\Three_Phase_Diode_Rectifier_PSIM.ehs3</Val>
+</Path>
+<Path>
+<Name>Target Circuit Path (.opal file)</Name>
+<Val>C:\ni-rt\NIVeriStand\eHS\Three_Phase_Diode_Rectifier_PSIM.ehs3</Val>
+</Path>
+<I32>
+<Name>DT (ns)</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Gs</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Solver Target</Name>
+<NumElts>3</NumElts>
+<DAQChannel>
+<Name>Output RIO Target</Name>
+<Val>RIO0</Val>
+</DAQChannel>
+<U16>
+<Name>Target Model</Name>
+<Val>1</Val>
+</U16>
+<Path>
+<Name>Bitfile Path</Name>
+<Val>C:\ni-rt\NIVeriStand\eHS\OpeneHSRealTimeP_FPGATarget_eHS64eHScRIO9039_Lm2U0fJaFqI.lvbitx</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Analog Out Target</Name>
+<NumElts>3</NumElts>
+<DAQChannel>
+<Name>Output RIO Target</Name>
+<Val>RIO0</Val>
+</DAQChannel>
+<U16>
+<Name>Target Model</Name>
+<Val>2</Val>
+</U16>
+<Path>
+<Name>Bitfile Path</Name>
+<Val>C:\ni-rt\NIVeriStand\eHS\OpeneHSRealTimeP_FPGATarget_eHS64eHScRIO9039_Lm2U0fJaFqI.lvbitx</Val>
+</Path>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Solver Inputs</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Input Channels Configuration (RT)</Name>
+<Dimsize>32</Dimsize>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>1</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>1</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>1</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>2</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Solver Input Channel configuration (RT)</Name>
+<NumElts>2</NumElts>
+<EL>
+<Name>Data Source</Name>
+<Choice>RT variable</Choice>
+<Choice>FPGA generation</Choice>
+<Val>0</Val>
+</EL>
+<I32>
+<Name>Internal Generator Index</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Switches</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>DI Line Indices</Name>
+<Dimsize>72</Dimsize>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>PWM Index</Name>
+<Val>0</Val>
+</I32>
+</Array>
+<Array>
+<Name>FPGA_RT_ctrl</Name>
+<Dimsize>72</Dimsize>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+</Array>
+<Array>
+<Name>on/off</Name>
+<Dimsize>72</Dimsize>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Solver Outputs</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>AO Settings</Name>
+<Dimsize>32</Dimsize>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>1</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>2</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>4</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>8</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>16</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>32</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>64</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>128</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>256</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>512</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>1024</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>2048</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>4096</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>8192</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>16384</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>32768</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>65536</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>131072</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>262144</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>524288</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>1048576</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>2097152</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>4194304</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>8388608</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>16777216</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>33554432</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>67108864</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>134217728</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>268435456</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>536870912</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>1073741824</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Analog Output Settings</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>AO Indices</Name>
+<Val>-2147483648</Val>
+</I32>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Gain</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Waveforms</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name> WF Settings</Name>
+<Dimsize>12</Dimsize>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>2</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Solver Out Waveform Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Source Type</Name>
+<Choice>Solver Input</Choice>
+<Choice>Switch</Choice>
+<Choice>Solver Output</Choice>
+<Choice>Unknown</Choice>
+<Val>3</Val>
+</EW>
+<I32>
+<Name>Source Index</Name>
+<Val>-1</Val>
+</I32>
+<DBL>
+<Name>Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+</Cluster>
+<Boolean>
+<Name>Internal PWM</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</LVData>

@@ -1,0 +1,121 @@
+CameraFile (6.72) {
+   Manufacturer (Mitsubishi)
+   Model (CIS)
+   CreationDate (20170531181707)
+   InterfaceInfo (1435) {
+      AcquisitionWindow (0, 0, 7296, 100)
+      BinaryThreshold (0, 200)
+      BitDepth (10)
+      BitsPerComponent (10)
+      NumComponents (1)
+      NumPhantomComponents (0)
+      Unsigned16BitImage (Yes)
+      FrameTimeout (1000)
+      LUT (Normal)
+      LUTTransform (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+      MaxImageSize (7296, 1024)
+      ScanType (LineScan)
+      Scaling (1)
+      DetectPCLK (Yes)
+      EnablePoCL (No)
+      FastRearm (Yes)
+      SynchronizeEnables (No)
+      ConfigDelay (0)
+      Interlaced (No)
+      Serial {
+         Baud (9600)
+         SerialDisabled (Yes)
+         Databits (8)
+         Parity (N)
+         DTR (High)
+         RTS (High)
+         Stopbits (1)
+         TermChars (\r)
+      }
+      SignalLevels {
+         PGOutput (RS422)
+      }
+      ControlLinesSource {
+         UseDefaultSource (No)
+         CCSourceLine0 (External, 0)
+         CCSourceLine1 (None, 1)
+         CCSourceLine2 (None, 2)
+         CCSourceLine3 (None, 3)
+      }
+      Bayer {
+         Pattern (None)
+         Algorithm (Bilinear)
+         RedGain (1.000000)
+         GreenGain (1.000000)
+         BlueGain (1.000000)
+      }
+      TestImageType (None)
+      TestImageFrameBlanking (100)
+      TestImageLineBlanking (100)
+      NumCameraTaps (2)
+      NumCameraXZones (1)
+      NumCameraTapsPerXZone (2)
+      NumCameraYZones (1)
+      NumCameraTapsPerYZone (1)
+      BitMapping (Standard)
+      TimeSlots (1)
+      InterleaveYZones (No)
+      XZonePixelExtractor (Left)
+      YZonePixelExtractor (Top)
+      NeedYChip (No)
+      NeedZChip (No)
+      LVALHighTrue (Yes)
+      FVALHighTrue (Yes)
+      DVALHighTrue (Yes)
+      DVALMode (1)
+      AcquisitionBitstream (Class08.dat)
+      AcquisitionBitstreamCompressed (Yes)
+      Tap (0) {
+         Position (Normal)
+         Start (Left, Top)
+      }
+   }
+   Pattern {
+      Action (PG) {
+         Line (0) {
+            Start (Low)
+            100, 1250
+         }
+         Line (1) {
+            Start (Low)
+         }
+         Line (2) {
+            Start (Low)
+         }
+         Line (3) {
+            Start (Low)
+         }
+         Clock (0x78)
+         RepeatSource (Fixed, 10)
+      }
+   }
+   Attribute (Trigger Mode) {
+      Value (List) {
+         Name (External) {
+            Action (Serial) {
+               Command (SS01\r)
+               Response ()
+            }
+            Action (PG) {
+               Line (1) {
+                  Start (Low)
+                  100, 2500
+               }
+            }
+         }
+         Name (Internal) {
+            Action (Serial) {
+               Command (SS001CDF\r)
+               Response (0000\r)
+            }
+         }
+         Default (Internal)
+         Current (External)
+      }
+   }
+}
